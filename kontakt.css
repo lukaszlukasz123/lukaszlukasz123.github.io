@@ -1,0 +1,51 @@
+ * { margin: 0; padding: 0; box-sizing: border-box;}
+  body { font-family: Arial, sans-serif; 
+  background-color: rgb(80, 80, 246);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    color: white;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+  }
+
+  .nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+.kontener { 
+  display: flex; 
+  flex-flow: row wrap;
+  top: 30px;
+}
+
+.karta {
+  flex: 0 0 33.333%;
+  display: flex;
+  padding: 10px; 
+}
+
+.karta2 {
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  flex: 0 0 100%;
+  text-align: center;
+  background-color:#Fecd45;
+  border-radius: 30px;
+}
