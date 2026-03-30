@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body></body>
+  
+<div id="Sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="zamknij" onclick="closeNav()">&times;</a>
+  <a href="strona.html">strona Główna</a>
+  <a href="login.html">Login</a>
+  <a href="kontakt.html">kontakt</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<form>
+    <div class="div1">
+        <h3>email</h3>
+        <input type="email" required>
+        <br>
+        <br>
+        <h3>hasło</h3>
+        <input placeholder="hasło" required>
+        <br>
+        <br>
+        <h3>numer telefonu</h3>
+        <input type="number">
+        <br>
+        <br>
+        <input type="checkbox" required> zgadzam się z polityką prywatności
+        <br>
+        <br>
+        <button type="submit">login</button>
+    </form>
+    <script>
+        function openNav() {
+            document.getElementById("Sidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("Sidenav").style.width = "0";
+        }
+    </script>
+        </body>
+    </html>
