@@ -7,20 +7,20 @@
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     color: white;
   }
 
   .nav-links {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 70px;
   }
 
   .nav-links a {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     transition: background 0.3s;
   }
 
@@ -31,21 +31,23 @@
 .kontener { 
   display: flex; 
   flex-flow: row wrap;
-  top: 30px;
 }
 
 .karta {
   flex: 0 0 33.333%;
   display: flex;
   padding: 10px; 
+  height: 200px;
 }
 
 .karta2 {
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   box-shadow: 0 0 4px rgba(0,0,0,0.4);
   flex: 0 0 100%;
-  text-align: center;
   background-color:#Fecd45;
   border-radius: 30px;
+  text-align: center;
+vertical-align: middle;
+line-height: 33px;
 }
